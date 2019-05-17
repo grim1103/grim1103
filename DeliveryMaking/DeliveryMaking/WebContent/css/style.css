@@ -1,0 +1,304 @@
+﻿
+﻿@charset "UTF-8";
+
+/* 
+body {
+	align: center;
+} */
+html,body {   height: 100%; margin: 0; padding: 0; }
+
+ 
+
+#container {
+min-height: 100%; 
+position: relative;
+margin-left: 60px;
+
+}
+
+ 
+
+
+.index img {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 300px;
+}
+
+#index {
+	margin: 5px 25px;
+	padding: 0;
+	float: left;
+}
+
+#header {
+	width: 100%;
+	height: 20px;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+#header a {
+	padding: 10px;
+	float: left;
+	border: 0px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#header a:hover {
+	border: 0px;
+	color: #adadad;
+	text-decoration: none;
+}
+
+.menubar li {
+	float: left;
+	padding: 0px;
+	list-style: none;
+}
+
+.menubar li a {
+	background: none;
+	color: #adadad;
+	display: block;
+	font-size: 30px;
+	font-weight: nomal;
+	line-height: 50px;
+	margin: 15px;
+	padding: 0px 25px;
+	text-align: left;
+	text-decoration: none;
+}
+
+.menubar li a:hover, .menubar ul li:hover a {
+	/* background: rgb(237, 234, 234); */
+	color: #000000;
+	text-decoration: none;
+}
+
+.menubar li ul {
+	float: left;
+	background: rgb(255, 255, 255);
+	display: none; /* 평상시에는 서브메뉴가 안보이게 하기 */
+	height: 15;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	position: absolute;
+	width: 200px;
+	z-index: 1;
+
+}
+
+.menubar li:hover ul {
+	float: left;
+	display: block; /* 마우스 커서 올리면 서브메뉴 보이게 하기 */
+}
+
+.menubar li li {
+	background: none;
+	display: block;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+}
+
+.menubar li:hover li a {
+	background: none;
+}
+
+.menubar li ul a {
+	display: block;
+	height: 50px;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0px;
+	text-align: left;
+}
+
+.menubar li ul a:hover, .menubar li ul li:hover a {
+	/* background: rgb(237, 234, 234); */
+	border: 0px;
+	color: #adadad;
+	text-decoration: none;
+}
+
+.menubar p {
+	clear: left;.	width: 100%;
+}
+
+.menubar  {
+		width: 100%;
+}
+
+.best {
+	text-align: center;
+	width: 1700px;
+	float: left;
+	position: absolute;
+
+	left: 270px;
+	margin: 110px 75px; 
+/* 	border: 1px solid #bcbcbc;
+ */}
+
+.board1 {
+	
+	position: absolute;
+	top: -636px;
+	left: 30px;
+	width: 500;
+}
+.board1_1 {
+	
+	position: absolute;
+	top: -270px;
+	left: 30px;
+	width: 500;
+}
+.board1_2 {
+	position: absolute;
+	top: 95px;
+	left: 30px;
+	width: 500;
+}
+
+
+ .board1 img{
+ 	display:block;
+ }
+ 
+ .board2 {
+ 	
+	width:1480px;
+text-align: center;
+}
+
+ .board2 img{
+ 	display:block;
+ 	text-align: center;
+ 	
+ }
+
+
+@media ( max-width : 480px ) {
+	#container {
+		width: auto;
+	}
+	#content {
+		float: none;
+		width: auto;
+	}
+	#best {
+		float: none;
+		width: auto;
+	}
+}
+ 
+ 
+ 
+#banner {
+	position: absolute;
+	width: 1270px;
+	height: 680px;
+	top: 60px;
+	left:620px;
+	overflow: hidden;
+
+}
+
+.banner {
+	position: relative;
+	width: 1270px;
+	height: 680px;
+	top: 60px;
+	left: 620px;
+	overflow: hidden;
+
+
+}
+ 
+
+#banner {
+  margin: 0 auto;
+}
+
+
+
+.line1 {
+	position: absolute;
+	top: 100px;
+	left: 280px;
+	margin-bottom: 20;
+	float: left;
+
+}
+
+.line2 {
+	position: absolute;
+	top: 100px;
+	left: 535px;
+}
+
+.line3 {
+	position: absolute;
+	top: 100px;
+	left: 795px;
+	margin-bottom: 20;
+
+}
+.line4 {
+	position: absolute;
+	top: 100px;
+	left: 1055px;
+	margin-bottom: 20;
+}
+
+.line5 {
+	position: absolute;
+	top: 100px;
+	left: 1315px;
+	margin-bottom: 20;
+}
+
+.line6 {
+	position: absolute;
+	top: 100px;
+	left: 1525px;
+	margin-bottom: 20;
+}
+
+
+#footer {
+	position: fixed;	
+	right: 0;	
+	bottom: 0;	
+	margin-bottom: 20px;	
+	height: 100px;
+}
+
+#footer1 {
+ 	top:1000px;
+ 	left: 100px;
+ 	width:1700px;
+	position: absolute;
+	bottom: 5000;
+	 border-top: 1px solid #adadad;
+
+}
+
+/* 
+ #footer1 {
+
+position: absolute;
+top: 1200;
+width: 100%;
+height: 100px;
+background-color: silver;
+border-top: 1px solid #adadad;
+
+} */
